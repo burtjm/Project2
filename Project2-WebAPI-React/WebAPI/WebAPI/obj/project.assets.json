@@ -8212,11 +8212,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\janmb\\Desktop\\Project2-WebAPI-React\\WebAPI\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\janmb\\Desktop\\Project2\\Project2-WebAPI-React\\WebAPI\\webapi\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\janmb\\Desktop\\Project2-WebAPI-React\\WebAPI\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\janmb\\Desktop\\Project2\\Project2-WebAPI-React\\WebAPI\\webapi\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\janmb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\janmb\\Desktop\\Project2-WebAPI-React\\WebAPI\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\janmb\\Desktop\\Project2\\Project2-WebAPI-React\\WebAPI\\webapi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

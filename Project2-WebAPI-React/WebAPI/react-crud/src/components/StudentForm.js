@@ -96,7 +96,8 @@ const StudentForm = ({ classes, ...props }) => {
     }, [props.currentId])
 
     return (
-        <form autoComplete="off" noValidate className={classes.root}>
+        <form autoComplete="off" noValidate className={classes.root}  onSubmit={handleSubmit}        
+        >
             <Grid container>
                 <Grid item xs={6}>
 
@@ -144,6 +145,13 @@ const StudentForm = ({ classes, ...props }) => {
                         value={values.age}
                         onChange={handleInputChange}
                     />
+                    <TextField
+                        name="program"
+                        variant="outlined"
+                        label="Program"
+                        value={values.program}
+                        onChange={handleInputChange}
+                    />
                    
                     <div>
                         <Button
@@ -151,7 +159,6 @@ const StudentForm = ({ classes, ...props }) => {
                             color="primary"
                             type="submit"
                             className={classes.smMargin}
-                            onSubmit={handleSubmit}
                         >
                             Submit
                         </Button>

@@ -47,7 +47,10 @@ namespace WebAPI.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutStudent(int id, Student student)
         {
-            student.id = id;
+            if (id != student.id)
+            {
+                return BadRequest();
+            }
 
             _context.Entry(student).State = EntityState.Modified;
 
@@ -67,7 +70,7 @@ namespace WebAPI.Controllers
                 }
             }
 
-            return NoContent();
+            return Ok();
         }
 
         // POST: api/Student
